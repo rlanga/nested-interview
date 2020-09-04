@@ -1,0 +1,21 @@
+We’re considering launching local branches in some new areas in London.
+We need to understand the opportunity available to us in these areas and compare them against one another.
+
+Specifically, we would like to help the company understand the total market value of some  of these areas in London in order to compare them against one another.
+Area 1: Wandsworth
+Postcodes: 'SW11 1', 'SW11 2', 'SW11 3', 'SW11 6', 'SW11 8', 'SW12 8', 'SW15 2', 'SW17 0', 'SW17 7', 'SW17 8', 'SW18 1', 'SW18 2', 'SW18 3', 'SW18 4', 'SW18 4', 'SW18 5', 'SW19 5', 'SW19 6', 'SW19 7', 'SW19 8'
+
+Area 2: Islington
+Postcodes: 'N1 0', 'N1 1', 'N1 2', 'N1 3', 'N1 4', 'N1 5', 'N1 6', 'N1 7', 'N1 8', 'N1 9', 'N5 1', 'N5 2', 'N7 0', 'N7 6', 'N7 7', 'N7 8', 'N7 9'
+
+Total market value: amt of money spent in an area.
+
+House pricing data available at: https://www.google.com/url?q=http%3A%2F%2Fprod.publicdata.landregistry.gov.uk.s3-website-eu-west-1.amazonaws.com%2Fpp-2020.csv&sa=D&source=calendar&usd=2&usg=AOvVaw2FvXV4CXC6uNE5hhR3zJ2h
+
+
+for area in areas:
+  ADD area_name to total_value dict
+  CREATE set of postcodes
+
+  if extracted_regex IS IN postcodes:
+    ADD total_value["area_name"] += price
